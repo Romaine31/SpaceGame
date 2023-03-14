@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html onclick="window.location='splash.html';">
+<head>
+	<title> Space Game </title>
+	
+</head>
+<body>
+<center>
+<p style="font-size:50px"><b>Your Score:
+
+<script>
+var link = window.location.href;
+link = link.replace("gameOver.html?","");
+document.write(link.charAt(link.length - 1));
+</script>
+</b></p>
+<p> click anywhere to try again </p>
+<img src="gameover.png">
+</center>
+</body>
+</html>
